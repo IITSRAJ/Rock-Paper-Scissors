@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------ CUSTOM CSS ---------------->
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------- FONT-AWESOME CDN ---------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+
+    <!------------------- HEADING ------------------->
+    <p class="heading">
+        You think you can win?
+    </p>
+
+    <!------------------------ MAIN ---------------------->
+
+    <!-- Game Icons -->
+    <div class="gameIcon">
+
+        <div class="playerSelection">
+            <i id="playerRock" class="fa-regular fa-hand-back-fist" style="color: #63E6BE;"></i>
+            <i id="playerPaper" class="fa-regular fa-hand" style="color: #63E6BE;"></i>
+            <i id="playerScissors" class="fa-regular fa-hand-scissors fa-rotate-90" style="color: #63E6BE;"></i>
+        </div>
+
+        <div class="computerSelection">
+            <i id="computerRock" class="fa-regular fa-hand-back-fist" style="color: #63E6BE;"></i>
+            <i id="computerPaper" class="fa-regular fa-hand" style="color: #63E6BE;"></i>
+            <i id="computerScissors" class="fa-regular fa-hand-scissors fa-rotate-90" style="color: #63E6BE;"></i>
+        </div>
+
+    </div>
+
+    <!-- Score -->
+    <div class="score">
+
+        <div id="playerScore">
+            0
+        </div>
+        :
+        <div id="computerScore">
+            0
+        </div>
+
+    </div>
+
+    <!-- Result -->
+    <p id="result"> </p>
+
+    <!-- Play Buttons -->
+    <div class="playBtns">
+
+        <button id="rockBtn" class="playBtn">
+            ROCK
+        </button>
+
+        <button id="paperBtn" class="playBtn">
+            PAPER
+        </button>
+
+        <button id="scissorsBtn" class="playBtn">
+            SCISSORS
+        </button>
+
+        <button id="restartBtn" class="restartBtn">
+            RESTART
+        </button>
+
+    </div>
+
+
+    <!-------------------------------------- FOOTER ------------------------------->
+
+    <div class="footer">
+        <hr>
+        <p class="credits">
+            By Raj -
+            <i class="fa-brands fa-github" style="color: #63E6BE;"></i>
+        </p>
+    </div>
+
+    <!----------------------------- CUSTOM JS ------------------------------>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
